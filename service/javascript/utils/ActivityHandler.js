@@ -31,7 +31,7 @@ var ActivityHandler = (function () {
 				params: { query: messageQuery }
 			},
 			callback: {
-				method: "palm://org.webosports.service.messaging/assignMessages",
+				method: "palm://org.webosports.messaging.service/assignMessages",
 				params: { lastCheckedRev: 0 } //set to same rev as above in code.
 			}
 		},
@@ -67,7 +67,7 @@ var ActivityHandler = (function () {
 										  "palm://com.palm.db/watch",
 										  { query: messageQuery });
 				Log.debug("Rev: ", newRev, " query: ", messageQuery);
-				activityObject.setCallback("palm://org.webosports.service.messaging/assignMessages",
+				activityObject.setCallback("palm://org.webosports.messaging.service/assignMessages",
 										   { lastCheckedRev: newRev });
 				if (result.returnValue === false) {
 					Log.debug("Could not get activity, re-creating it: ", result);

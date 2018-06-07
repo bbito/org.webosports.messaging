@@ -8,12 +8,12 @@ var MessageAssigner = (function () {
 	//create notification for a message:
 	function createNotification(msg, contactName, threadId) {
 		return PalmCall.call("palm://org.webosports.notifications", "create", {
-			ownerId: "org.webosports.service.messaging",
-			launchId: "org.webosports.app.messaging",
+			ownerId: "org.webosports.messaging.service",
+			launchId: "org.webosports.messaging.app",
 			launchParams: {threadId: threadId }, //Seems the messaging app does not support this, yet.
 			title: contactName,
 			body: msg.messageText,
-			iconUrl: "file:///usr/palm/applications/org.webosports.app.messaging/icon.png",
+			iconUrl: "file:///usr/palm/applications/org.webosports.messaging.app/icon.png",
 			soundClass: "notifications",
 			soundFile: "",
 			duration: -1,

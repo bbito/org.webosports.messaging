@@ -1,6 +1,6 @@
 {
 	"id":"com.palm.chatthread:1",
-	"owner": "org.webosports.service.messaging",
+	"owner": "org.webosports.messaging.service",
 	"indexes": [
 		{
 			"name":"byperson",

@@ -109,7 +109,7 @@ module.exports = kind({
         },
         {
             name: 'deleteChatthreadService', kind: LunaService,
-            service: 'luna://org.webosports.service.messaging', method: 'deleteChatthread',
+            service: 'luna://org.webosports.messaging.service', method: 'deleteChatthread',
             mock: ! ('PalmSystem' in window),
             onError: 'deleteChatthreadErr'
         }

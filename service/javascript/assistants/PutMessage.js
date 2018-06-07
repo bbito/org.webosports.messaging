@@ -14,7 +14,7 @@
  *
  * Example request:
  *
- * luna-send -n 1 -a org.webosports.app.messaging luna://org.webosports.service.messaging/putMessage '{"message":{"_kind": "com.palm.message:1", "flags": {"visible": true}, "folder":"outbox","status":"pending","to": [{ "addr": "+491234567890" }], "localTimestamp":0,"messageText":"Message Text13","serviceName": "sms","timestamp": 0}}'
+ * luna-send -n 1 -a org.webosports.messaging.app luna://org.webosports.messaging.service/putMessage '{"message":{"_kind": "com.palm.message:1", "flags": {"visible": true}, "folder":"outbox","status":"pending","to": [{ "addr": "+491234567890" }], "localTimestamp":0,"messageText":"Message Text13","serviceName": "sms","timestamp": 0}}'
  *
  * Reply:
  *

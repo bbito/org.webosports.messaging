@@ -2,7 +2,8 @@ app/lib/
 app/node_modules/
 app/dist/
 .enyocache
-app/org.webosports.app.messaging_*_all.ipk
+app/org.webosports.messaging_*_all.ipk
+org.webosports.messaging_*_all.ipk
 .project
 app/.DS_Store
 app/build/

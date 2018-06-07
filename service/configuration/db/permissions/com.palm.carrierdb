@@ -67,7 +67,7 @@
     {
         "type": "db.kind",
         "object": "com.palm.carrierdb.settings.current:1",
-        "caller": "org.webosports.app.messaging",
+        "caller": "org.webosports.messaging.app",
         "operations": {
             "read": "allow"
         }

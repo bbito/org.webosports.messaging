@@ -3,7 +3,7 @@
 		"name": "chatthreader-message-watch",
 		"description": "Assings new messages to chat threads",
 		"callback": {
-			"method": "palm://org.webosports.service.messaging/assignMessages",
+			"method": "palm://org.webosports.messaging.service/assignMessages",
 			"params": { "lastCheckedRev": 0 }
 		},
 		"type": {

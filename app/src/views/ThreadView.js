@@ -160,13 +160,13 @@ module.exports = kind({
         },
         {
             name: 'putMessageService', kind: LunaService,
-            service: 'luna://org.webosports.service.messaging', method: 'putMessage',
+            service: 'luna://org.webosports.messaging.service', method: 'putMessage',
             mock: ! ('PalmSystem' in window),
             onResponse: 'putMessageRspns', onError: 'serviceErr'
         },
         {
             name: 'updateThreadValuesService', kind: LunaService,
-            service: 'luna://org.webosports.service.messaging', method: 'updateThreadValues',
+            service: 'luna://org.webosports.messaging.service', method: 'updateThreadValues',
             mock: ! ('PalmSystem' in window),
             onError: 'serviceErr'
         },

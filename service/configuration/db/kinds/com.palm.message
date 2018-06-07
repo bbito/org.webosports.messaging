@@ -1,6 +1,6 @@
 {
 	"id": "com.palm.message:1",
-	"owner": "org.webosports.service.messaging",
+	"owner": "org.webosports.messaging.service",
 	"sync": true,
 	"indexes": [
 		{

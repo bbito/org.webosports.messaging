@@ -40,7 +40,7 @@ To test in a browswer (Chrome is most like LuneOS) surf to `dist/index.html`
 
 
 To rebuild and install on a LuneOS device attached via USB, run this command in the app directory:
-`enyo pack && adb push dist /usr/palm/applications/org.webosports.app.messaging && adb shell systemctl restart luna-next; adb forward tcp:1122 tcp:1122`
+`enyo pack && adb push dist /usr/palm/applications/org.webosports.messaging.app && adb shell systemctl restart luna-next; adb forward tcp:1122 tcp:1122`
 Then, in Chrome, surf to `localhost:1122` to debug.
 
 
@@ -55,4 +55,4 @@ Open an `im` or `sms` URL.  Like `mailto` URLs, this does not require a PalmBus 
 When an incoming message arrives, a banner message is displayed.
 Tapping on the banner should call (the equivalent of) this:
 
-`luna-send -n 1 palm://com.palm.applicationManager/launch '{"id":"org.webosports.app.messaging", "params": { "threadId": 123456 }}'`
+`luna-send -n 1 palm://com.palm.applicationManager/launch '{"id":"org.webosports.messaging.app", "params": { "threadId": 123456 }}'`

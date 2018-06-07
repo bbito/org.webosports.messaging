@@ -11,7 +11,7 @@
     {
         "type": "db.kind",
         "object": "com.palm.chatthread:1",
-        "caller": "org.webosports.app.messaging",
+        "caller": "org.webosports.messaging.app",
         "operations": {
             "create": "allow",
             "delete": "allow",

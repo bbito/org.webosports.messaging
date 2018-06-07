@@ -1,6 +1,6 @@
 {
 	"role": {
-	"allowedNames": ["org.webosports.service.messaging"],
+	"allowedNames": ["org.webosports.messaging.service"],
 		"type": "regular",
 		"exeName": "js"
 	},
@@ -8,7 +8,7 @@
 		{
 			"inbound": ["*"],
 			"outbound": ["*"],
-			"service": "org.webosports.service.messaging"
+			"service": "org.webosports.messaging.service"
 		}
 	]
 }

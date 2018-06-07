@@ -1,5 +1,5 @@
 {
-    "id": "org.webosports.app.messaging",
+    "id": "org.webosports.messaging.app",
     "version": "0.2.0",
     "vendor": "WebOS Ports",
     "type": "web",
@@ -12,7 +12,7 @@
 	"universalSearch":{
 		"action":{ 
 			"displayName": "New Message",
-			"url":"org.webosports.app.messaging",
+			"url":"org.webosports.messaging.app",
 			"launchParam":{"compose":{"messageText":"#{searchTerms}"}}
 		}
 	}

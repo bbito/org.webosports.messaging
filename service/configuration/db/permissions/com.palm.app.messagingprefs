@@ -31,7 +31,7 @@
     {
         "type": "db.kind",
         "object": "com.palm.app.messagingprefs:1",
-        "caller": "org.webosports.app.messaging",
+        "caller": "org.webosports.messaging.app",
         "operations": {
         	"create": "allow",
             "delete": "allow",
