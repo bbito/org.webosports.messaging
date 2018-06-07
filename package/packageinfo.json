@@ -1,0 +1,10 @@
+{
+    "id": "org.webosports.messaging",
+    "package_format_version": 2,
+    "loc_name": "Messaging",
+    "version": "0.2.0",
+    "vendor": "WebOS Ports",
+    "vendorurl": "https://github.com/webOS-ports/org.webosports.messaging",
+    "app": "org.webosports.app.messaging",
+    "services": [ "org.webosports.service.messaging" ]
+}
