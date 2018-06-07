@@ -1,5 +1,5 @@
 {
-    "id": "org.webosports.messaging",
+    "id": "org.webosports.app.messaging",
     "package_format_version": 2,
     "loc_name": "Messaging",
     "version": "0.2.0",
